@@ -11,11 +11,10 @@ function ViewBlogContent() {
           Overview
         </h2>
         <p className="text-black dark:text-gray-400 " data-aos="fade-up">
-          Artificial Intelligence (AI) is no longer a futuristic concept—it's a
-          necessity for enterprises aiming to stay ahead. In this blog, we
-          explore how businesses can harness AI-driven insights, predictive
-          analytics, and intelligent automation to enhance operational
-          efficiency and innovation.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+          ullamcorper, nulla ut gravida malesuada, velit augue facilisis metus,
+          et fringilla eros sapien non metus. Proin dapibus nisl nec diam
+          suscipit, ac elementum odio commodo.
         </p>
       </section>
 
@@ -31,25 +30,20 @@ function ViewBlogContent() {
           className="list-disc list-inside text-black dark:text-gray-400"
         >
           <li>
-            The Role of AI in Business Transformation - How AI enhances
-            decision-making, automates repetitive tasks, and boosts efficiency.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at
+            felis sed nulla interdum tempor.
           </li>
           <li>
-            Predictive Analytics & Machine Learning - How enterprises can
-            leverage AI-driven models to anticipate market trends and customer
-            behaviors.
+            Quisque fermentum lorem nec ligula dignissim, non rhoncus est
+            dignissim. Sed nec orci id sem fermentum dictum.
           </li>
           <li>
-            AI & Data Security - Addressing concerns about AI security risks and
-            how enterprises can protect their data.
+            Curabitur imperdiet sapien a pulvinar lobortis. Nulla facilisi.
           </li>
+          <li>Donec sit amet eros ac massa convallis tincidunt a ac erat.</li>
           <li>
-            Real-World Use Cases - Success stories of companies integrating AI
-            into their operations.
-          </li>
-          <li>
-            Future Trends in AI & Data - The next wave of AI innovations,
-            including generative AI and explainable AI.
+            Vivamus tempus, tortor in efficitur congue, lacus eros viverra
+            tortor, sed porta lacus elit in mauris.
           </li>
         </ul>
       </section>
@@ -60,13 +54,12 @@ function ViewBlogContent() {
           className=" pl-4 italic text-black dark:text-gray-400"
         >
           <p>
-            "AI-driven data strategies are revolutionizing enterprise
-            decision-making, enabling businesses to unlock deep insights,
-            automate processes, and gain a competitive edge in an increasingly
-            data-driven world."
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+            tristique sem a commodo feugiat. Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames ac turpis egestas."
           </p>
           <cite className="mt-2 text-black dark:text-gray-400">
-            - Erfan Khan, AI & Data Strategist
+            - John Doe, Lorem Ipsum Expert
           </cite>
         </blockquote>
       </section>
@@ -79,9 +72,10 @@ function ViewBlogContent() {
           Why Read This?
         </h2>
         <p data-aos="fade-up" className="text-black dark:text-gray-400">
-          If you're a business leader or strategist looking to integrate AI
-          solutions, this blog will offer actionable insights to help you make
-          informed decisions.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit
+          consectetur sapien, nec viverra est accumsan id. Nunc tincidunt, erat
+          ut efficitur aliquam, metus metus vulputate ligula, a iaculis velit
+          neque non sapien.
         </p>
       </section>
     </div>

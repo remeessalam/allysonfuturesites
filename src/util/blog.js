@@ -9,72 +9,66 @@ export const blogPosts = [
   {
     id: 1,
     imageUrl: The_Future,
-    title:
-      "The Future of AI & Data: How Enterprises Can Leverage AI for Competitive Advantage",
+    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     subdescription:
-      "In today's digital era, where every aspect of business is be...",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
     description:
-      "In today's digital era, where every aspect of business is be...",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur a ligula nec mauris sagittis lacinia. Nullam tincidunt est id lorem ullamcorper, in varius nisi facilisis.",
     readTime: "2 min read",
     date: "Apr 28, 2024",
   },
   {
     id: 2,
     imageUrl: Product_Engineering,
-    title:
-      "Product Engineering in the Digital Age: Scaling with Agile and Human-Centered Design",
+    title: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
     subdescription:
-      "As businesses seek competitive advantages in an increasingly...",
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco...",
     description:
-      "In today's digital era, where every aspect of business is be...",
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
     readTime: "5 min read",
     date: "Apr 28, 2024",
   },
   {
     id: 3,
     imageUrl: The_Power,
-    title:
-      "The Power of UI/UX: Creating Seamless Digital Experiences for Modern Users",
+    title: "Ut enim ad minim veniam, quis nostrud exercitation ullamco",
     subdescription:
-      "In the dynamic world of digital design, staying ahead means...",
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse...",
     description:
-      "In today's digital era, where every aspect of business is be...",
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
     readTime: "3 min read",
     date: "Apr 28, 2024",
   },
   {
     id: 4,
     imageUrl: Cloud_Transformation,
-    title:
-      "Cloud Transformation: How Enterprises Can Optimize Cloud for Scalability and Security",
+    title: "Excepteur sint occaecat cupidatat non proident",
     subdescription:
-      "In the dynamic world of digital design, staying ahead means...",
+      "Sunt in culpa qui officia deserunt mollit anim id est laborum...",
     description:
-      "In today's digital era, where every aspect of business is be...",
+      "Sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.",
     readTime: "3 min read",
     date: "Apr 28, 2024",
   },
   {
     id: 5,
     imageUrl: Enterprise_Solutions,
-    title:
-      "Enterprise Solutions: How Digital Transformation is Reshaping Business Operations",
+    title: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
     subdescription:
-      "In today's digital era, where every aspect of business is be...",
+      "Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis...",
     description:
-      "In today's digital era, where every aspect of business is be...",
+      "Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem.",
     readTime: "2 min read",
     date: "Apr 28, 2024",
   },
   {
     id: 6,
     imageUrl: IT_Consulting,
-    title:
-      "IT Consulting & Strategy: Aligning Technology with Business Goals for Maximum Impact",
+    title: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut",
     subdescription:
-      "As businesses seek competitive advantages in an increasingly...",
+      "Neque porro quisquam est, qui dolorem ipsum quia dolor sit...",
     description:
-      "In today's digital era, where every aspect of business is be...",
+      "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Sed quia non numquam eius modi tempora incidunt ut labore.",
     readTime: "5 min read",
     date: "Apr 28, 2024",
   },
