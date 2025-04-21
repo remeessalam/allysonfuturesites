@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import backgroundimg from "../assets/images/backgroundimg.png";
 import backgroundwhiteimg from "../assets/images/backgroundwhiteimg.png";
-import howweworkimg from "../assets/images/howweworkimg.jpeg";
+import howweworkimg from "../assets/images/howweworkimg.jpg";
 import { useTheme } from "../Context/ThemeContext";
 
 const HowWeWork = () => {

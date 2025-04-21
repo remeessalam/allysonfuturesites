@@ -23,7 +23,7 @@ const Footer = () => {
                 <img
                   src={isDarkMode ? logo : logolight}
                   alt="logo"
-                  className="w-[6.4rem]"
+                  className="w-[11.5rem]"
                 />
               </div>
               <p className="text-white text-sm max-w-xs">

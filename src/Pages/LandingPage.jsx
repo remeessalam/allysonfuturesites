@@ -34,8 +34,8 @@ const LandingPage = ({ page }) => {
                 experiences that transcend borders, dimensions, and industries.
                 Whether you need a next-generation mobile app, an interstellar
                 AR/VR environment, or an AI calling system that revolutionizes
-                global communication, aicompany is here to guide you on this
-                journey across galaxies.
+                global communication, Onfuturesites LLP is here to guide you on
+                this journey across galaxies.
               </p>
             </div>
           </div>

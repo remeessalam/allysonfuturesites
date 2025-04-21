@@ -42,7 +42,7 @@ const VisionMission = () => {
         >
           <div
             data-aos="fade-left"
-            className="absolute md:max-w-[30rem] mx-4 md:mx-0 bottom-5 md:-left-5 gap-5 rounded-xl flex p-5 bg-gradient-to-r from-blue-600 to-primary"
+            className="absolute md:max-w-[30rem] mx-4 md:mx-0 bottom-5 md:-left-5 gap-5 rounded-xl flex p-5 bg-gradient-to-r from-gray-300 to-primary"
           >
             <img
               src={userimg}

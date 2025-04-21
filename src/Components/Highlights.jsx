@@ -18,8 +18,8 @@ const Highlights = () => {
               Revolutionizing AI with Quantum Intelligence
             </h1>
             <p className="desc" data-aos="fade-right">
-              From local startups to interplanetary enterprises, aicompany is
-              your ultimate gateway to advanced AI solutions. We merge
+              From local startups to interplanetary enterprises, Onfuturesites
+              LLP is your ultimate gateway to advanced AI solutions. We merge
               artificial intelligence, quantum computing, and cosmic
               consciousness to drive unparalleled business growth and digital
               evolution.

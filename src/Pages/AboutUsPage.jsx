@@ -1,5 +1,5 @@
 import React from "react";
-import aboutusimg from "../assets/images/aboutusimg.png";
+import aboutusimg from "../assets/images/aboutusimg.jpg";
 import { useTheme } from "../Context/ThemeContext";
 import CoreValues from "../Components/CoreValues";
 import VisionMission from "../Components/VisionMission";

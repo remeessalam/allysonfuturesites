@@ -18,9 +18,10 @@ const ServicePage = () => {
         />{" "}
         <section className="relative flex flex-col items-center gap-10 z-10 w-full h-full ">
           <div
-            className="w-full min-h-[30rem] flex flex-col bg-cover bg-center justify-center items-center gap-10 paddingtop paddingbottom "
+            className=" w-full min-h-[30rem] flex flex-col bg-cover bg-center justify-center items-center gap-10 paddingtop paddingbottom "
             style={{ backgroundImage: `url(${servicebanner})` }}
           >
+            <div className=" absolute w-full h-full bg-black/30" />
             <RoundedHeader title={"Our Services"} />
             <h1
               data-aos="fade-up"
