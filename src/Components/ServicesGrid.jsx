@@ -33,7 +33,7 @@ const ServicesGrid = ({ isHomepage }) => {
                 className={`relative aspect-square shadow-2xl ${
                   isDarkMode ? `hovershadowwhite` : `hover:shadow-black`
                 } ${
-                  isHomepage && `h-[20rem] w-full`
+                  isHomepage && `max-h-[20rem] w-full`
                 } duration-500 transition-all transform hover:-translate-x-8 h-full dark:hover:bg-primary hover:bg-primary group dark:bg-darkblack overflow-hidden rounded-xl border border-slate-700`}
                 onMouseEnter={() => setHover(index)}
                 onMouseLeave={() => setHover("")}

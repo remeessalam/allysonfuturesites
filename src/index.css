@@ -8,12 +8,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #0088cc;
+  background-color: #ea4344;
   border-radius: 8px;
 }
 
 html {
-  background-color: #020816;
+  background-color: #170101;
   overflow-x: hidden;
 }
 .videoplayer {

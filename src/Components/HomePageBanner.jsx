@@ -7,9 +7,8 @@ const HomePageBanner = () => {
   const navigateTo = (link) => {
     navigate(link);
   };
-  const headingText = "Vision Beyond Reality";
-  const paragraphText =
-    "Where Cosmic Innovation Meets Quantum-Level Intelligence";
+  const headingText = "Welcome to Onfuturesites";
+  const paragraphText = "Pioneering Tomorrow's Technology Today";
 
   const [displayHeading, setDisplayHeading] = useState("");
   const [displayParagraph, setDisplayParagraph] = useState("");
@@ -74,7 +73,7 @@ const HomePageBanner = () => {
           },
         }}
       />
-      <div className="absolute flex flex-col items-center justify-between    left-0 top-0 w-full h-full pt-[7rem]">
+      <div className="absolute flex flex-col bg-black/30 items-center justify-between    left-0 top-0 w-full h-full pt-[7rem]">
         <h1 className="sm:text-5xl text-lg font-bold text-center text-white mb-6">
           {displayHeading}
           {cursorPosition === "heading" && (

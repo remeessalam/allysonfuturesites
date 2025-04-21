@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Sun, Moon, Menu, X } from "lucide-react";
-import logo from "../../assets/images/headerlogo.png";
+import logo from "../../assets/images/logoDark.png";
+import logolight from "../../assets/images/logolight.png";
 import { Link } from "react-router-dom";
 import { useTheme } from "../../Context/ThemeContext";
 import { Link as Scrolllink } from "react-scroll";
@@ -23,7 +24,11 @@ const LandingHeader = () => {
         <div className="flex items-center justify-between py-5">
           <div className="flex-shrink-0">
             <div className=" w-auto text-white">
-              <img src={logo} alt="logo" className="w-[6.4rem]" />
+              <img
+                src={isDarkMode ? logo : logolight}
+                alt="logo"
+                className="w-[11.5rem]"
+              />
             </div>
           </div>
 

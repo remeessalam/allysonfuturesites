@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTheme } from "../../Context/ThemeContext";
-import logo from "../../assets/images/headerlogo.png";
+import logo from "../../assets/images/logoDark.png";
+import logolight from "../../assets/images/logolight.png";
 import { Link as Scrolllink } from "react-scroll";
 import { companyDetails } from "../../util/constant";
 
@@ -20,7 +21,11 @@ const LandingFooter = () => {
           <div className="grid grid-cols-1 md:grid-cols-3  xl:grid-cols-4 gap-8 items-start">
             <div className="col-span-1">
               <div className="flex items-center gap-2 mb-4">
-                <img src={logo} alt="logo" className="w-[6.4rem]" />
+                <img
+                  src={isDarkMode ? logo : logolight}
+                  alt="logo"
+                  className="w-[11.5rem]"
+                />
               </div>
               <p className="text-white text-sm max-w-xs">
                 Unleash the Next Wave of Business Evolution with aicompany
