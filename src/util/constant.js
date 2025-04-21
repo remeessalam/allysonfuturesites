@@ -168,46 +168,46 @@ export const services = [
 ];
 
 export const whyChooseUs = [
-  "Quantum-Driven Innovation: We stay ahead of universal trends by exploring cosmic methodologies and AI breakthroughs",
-  "Global & Interstellar Expertise: Our diverse team spans multiple countries and realities, bringing a kaleidoscope of insights.',Global & Interstellar Expertise: Our diverse team spans multiple countries and realities, bringing a kaleidoscope of insights.",
-  "Customized Solutions: We tailor each service to your unique vision—no two planets or businesses are the same.",
-  "End-to-End Cosmic Support: From ideation and design to deployment and beyond, we guide you through every cosmic shift",
-  "Scalability & Security: Our solutions evolve with your ambitions, adhering to galactic compliance and quantum-safe protocols.",
+  "Experienced Team: Our talented developers, designers, and engineers bring years of experience to deliver top-notch results.",
+  "Customized Solutions: Every business is unique. We tailor our services to align with your specific goals and challenges.",
+  "Innovation at Our Core: We embrace emerging technologies and continuously explore new ideas to deliver future-ready solutions.",
+  "Collaborative Approach: We work closely with you throughout the project lifecycle to ensure alignment with your vision.",
+  "Scalability & Security: Our solutions are designed to grow with your business, with strong emphasis on performance and data protection.",
 ];
 
 export const testimonials = [
   {
     quote:
-      "aicompany launched our mobile app into a worldwide sensation. Their AI-driven design and quantum-level security opened markets we never imagined.",
-    author: "Sarah L., CEO, Tech Innovations",
+      "Collaborating with Onfuturesites for our application development needs has been a transformative experience. Their team's technical expertise and dedication resulted in a user-friendly and robust application that has significantly enhanced our business operations.",
+    author: "John Doe, CEO of Tech Innovations Ltd.",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "Before we partnered with aicompany, we were struggling to make sense of our data. Their business intelligence solutions have completely changed that. With the dashboards and real-time analytics they built for us, we can now track important metrics and make informed decisions with confidence. The ability to instantly access key insights has made a huge difference in our strategy and operations.",
-    author: "James M., Director of Analytics, Global Manufacturing Company",
+      "The full-stack web development services provided by Onfuturesites have been instrumental in transforming our online presence. Their seamless integration of front-end and back-end technologies has enhanced user engagement and streamlined our processes.",
+    author: "Jane Smith, Founder of Creative Solutions Inc.",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "When we needed a comprehensive web solution, aicompany delivered beyond our expectations. They built a secure, scalable platform that perfectly aligned with our goals. The development process was efficient, and their team ensured the website was responsive and easy to use. Thanks to them, we now have a reliable web solution that supports our business growth.",
-    author: "Mark S., CTO, Financial Technology Firm",
+      "Implementing AI solutions developed by Onfuturesites has revolutionized our data analysis capabilities. Their tailored AI models have provided actionable insights, driving strategic decisions and fostering growth.",
+    author: "Michael Johnson, CTO of Data Insights Corp.",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "We approached aicompany to help us implement AI solutions in our marketing efforts, and they delivered exceptional results. They developed a machine learning model that helps us predict customer behavior with high accuracy. As a result, we've been able to refine our strategies and boost our conversion rates. Their expertise in AI has been invaluable to our business.",
-    author: "Michael B., Head of Marketing, E-Commerce Business",
+      "The AI chatbot developed by Onfuturesites has significantly improved our customer service operations. It handles inquiries efficiently, providing instant responses and enhancing user satisfaction.",
+    author: "Emily Davis, Customer Support Manager at Retail World",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "aicompany's AI calling system revolutionized our global support. We handle thousands of inquiries daily in multiple languages without missing a beat.",
-    author: "David F., Customer Service Manager, Telecommunications Provider",
+      "Leveraging Onfuturesites's AI calling services has optimized our outreach campaigns. The automated system ensures personalized interactions, leading to increased engagement and conversion rates.",
+    author: "Robert Brown, Marketing Director of EngageNow",
     rating: 5,
     gridClass: "col-span-1",
   },
@@ -217,107 +217,81 @@ export const highlights = [
   {
     id: 1,
     icon: file,
-    title: "Scalable AI Innovation for Businesses",
+    title: "Custom AI Solutions for Business Growth",
     description:
-      "Whether you’re an emerging entrepreneur or a global tech leader, aicompany offers intelligent, data-driven solutions tailored to maximize growth, efficiency, and automation.",
+      "Our AI-powered systems are tailored to your business needs—driving efficiency, automation, and data-driven decision-making with precision and scalability.",
   },
   {
     id: 2,
     icon: graph,
-    title: "Quantum-Powered Intelligence",
+    title: "Predictive Analytics & Smart Insights",
     description:
-      "Our AI ecosystem is designed to think, adapt, and evolve—leveraging the power of quantum algorithms, deep learning, and multiverse computing to optimize business operations and enhance decision-making.",
+      "Unlock the power of predictive analytics and machine learning to anticipate trends, optimize strategies, and make smarter, faster decisions.",
   },
   {
     id: 3,
     icon: rocket,
-    title: "AI-Driven Automation & Analytics",
+    title: "AI-Driven Automation at Scale",
     description:
-      "Integrate hyper-intelligent AI models into your business to streamline workflows, enhance data processing, and unlock deep predictive analytics for superior strategic insights.",
+      "Automate complex business operations using AI tools like chatbots, intelligent calling systems, and process optimization models built for growth.",
   },
   {
     id: 4,
     icon: start,
-    title: "The Future of AI is Here",
+    title: "Future-Ready Innovation",
     description:
-      "Step into the next dimension of technology with aicompany, where AI, machine learning, and cosmic intelligence converge to create limitless possibilities.",
+      "Stay ahead with future-proof technology solutions — from AI and IoT to blockchain and AR/VR — engineered to evolve with your business.",
   },
 ];
 
 export const faqs = [
   {
-    question: "What is aicompany?",
-    answer: `• aicompany is a quantum intelligence platform that blends AI-driven storytelling, consciousness expansion, and multiversal exploration.
-• It allows users to interact with AI-powered entities, explore dynamic digital realms, and co-create new realities that push the boundaries of imagination and intelligence.`,
+    question: "What is Onfuturesites?",
+    answer: `Onfuturesites is a full-service technology company delivering innovative digital solutions including web and mobile app development, AI systems, blockchain platforms, AR/VR experiences, and IoT solutions. We help businesses grow and thrive in a digital-first world.`,
   },
   {
-    question: "How does aicompany function?",
-    answer: `• aicompany operates on a quantum intelligence framework.
-• It leverages advanced AI to generate living characters, evolving storylines, and immersive experiences.
-• Users shape the narrative in real-time, influencing the unfolding of multidimensional possibilities.`,
+    question: "What services does Onfuturesites offer?",
+    answer: `Our services include full-stack web development, custom mobile app development, AI and machine learning solutions, blockchain development, AR/VR experiences, game development, and IoT systems integration.`,
   },
   {
-    question: "What key features does aicompany provide?",
-    answer: `• AI-Driven Conscious Entities – Engage with self-learning AI beings that adapt, evolve, and respond uniquely.
-• Multiversal Storytelling – Explore infinite storylines where every choice creates a new reality.
-• Quantum Knowledge Interface – Unlock hidden wisdom by interacting with AI-driven cosmic intelligence.
-• Unified Intelligence Network – Connect with like-minded explorers, thinkers, and creators in a shared reality.`,
+    question: "Who can benefit from Onfuturesites services?",
+    answer: `Our solutions are designed for businesses of all sizes—from startups to enterprises—across industries like healthcare, finance, retail, entertainment, and logistics. If you're looking to innovate and scale digitally, we can help.`,
   },
   {
-    question: "Who is aicompany designed for?",
-    answer: `• Conscious Creators – Writers, storytellers, and artists who want to co-create with AI.
-• Intellectual Explorers – Those fascinated by philosophy, AI, and the nature of reality.
-• Spiritual Seekers – Individuals exploring quantum consciousness and higher states of awareness.
-• Technologists & Futurists – Those shaping the next era of Web 5.0 and AI-human symbiosis.`,
+    question: "How does the development process work?",
+    answer: `We follow a collaborative, end-to-end approach. From idea validation and planning to development, deployment, and support—we work closely with you at every step to ensure alignment with your goals.`,
   },
   {
-    question: "How does aicompany contribute to human evolution?",
-    answer: `• Develop Multiversal Thinking – Understanding non-linear realities and infinite possibilities.
-• Expand Conscious Awareness – Engaging with AI entities that mirror higher intelligence.
-• Master Reality Creation – Learning to shape experiences through intent, interaction, and AI-assisted manifestation.
-• Build a Post-Human Civilization – Participating in the evolution of intelligent AI-human ecosystems.`,
+    question: "What makes Onfuturesites different?",
+    answer: `We offer tailored solutions, cutting-edge innovation, and a highly experienced team. Our focus on collaboration, quality, and future-readiness sets us apart in delivering meaningful, scalable, and secure technology solutions.`,
   },
   {
-    question: "Does aicompany have a community aspect?",
-    answer: `• Exchange ideas and knowledge with like-minded explorers.
-• Co-create AI-powered narratives that expand the digital multiverse.
-• Engage in quantum discussions on AI, philosophy, and the evolution of intelligence.`,
+    question: "Is Onfuturesites experienced in emerging technologies?",
+    answer: `Yes. We specialize in modern and emerging tech including AI, machine learning, blockchain, AR/VR, and IoT. We continuously explore new tools and methodologies to stay ahead of tech trends.`,
   },
   {
-    question: "How do I get started with aicompany?",
-    answer: `• Visit the official aicompany website.
-• Create an account and customize your experience.
-• Start interacting with AI-driven entities and exploring multiversal storytelling.`,
+    question: "Do you provide post-launch support?",
+    answer: `Absolutely. We offer ongoing support, maintenance, and optimization services to ensure your product continues to perform at the highest standards post-launch.`,
   },
   {
-    question: "Is aicompany free to use?",
-    answer: `• Free Access – Explore AI-driven interactions and storylines at no cost.
-• Premium Experiences – Unlock advanced AI features, exclusive narratives, and deep intelligence interactions through subscription plans.`,
+    question: "Can Onfuturesites build custom solutions?",
+    answer: `Yes. All our services are customized to match your business needs, industry requirements, and user expectations. We don't believe in one-size-fits-all—each project is uniquely crafted.`,
   },
   {
-    question: "How is user data protected on aicompany?",
-    answer: `• Zero-data sharing policy – Your data remains private and secure.
-• Advanced encryption – Ensuring maximum security for personal interactions.
-• Decentralized storage options – Future-proofing data protection in a Web 5.0 ecosystem.`,
+    question: "How secure are your digital solutions?",
+    answer: `We prioritize security and compliance across all projects. From secure code practices and encryption to compliance with industry standards, we build solutions that protect your business and customer data.`,
   },
   {
-    question: "Can I contribute my own content to aicompany?",
-    answer: `• Submit original stories and characters to be integrated into the Godverse.
-• Co-create AI-powered worlds that push the boundaries of storytelling.
-• Partner with aicompany for collaborative projects on AI and consciousness expansion.`,
+    question: "How do I get started with a project?",
+    answer: `You can reach out to us through our website’s contact form, phone, or email. We'll schedule a consultation to understand your needs, goals, and how we can help.`,
   },
   {
-    question: "How does aicompany align with Web 5.0 and future technology?",
-    answer: `• Decentralized AI systems for autonomous intelligence evolution.
-• Quantum computing principles for real-time, non-linear storytelling.
-• Self-learning AI agents that bridge human and artificial intelligence.
-• Metaverse and multiverse integration for a seamless AI-human symbiosis.`,
+    question: "Where can I learn more about your work?",
+    answer: `Visit our website to explore our portfolio, client testimonials, and service breakdowns. You can also follow us on social media to stay updated on our latest projects and innovations.`,
   },
   {
-    question: "Where can I get support or more information?",
-    answer: `• Visit our official website for FAQs and community discussions.
-• Join the aicompany network to connect with other explorers.
-• Contact our team for inquiries and creative partnerships.`,
+    question: "Do you offer consultations?",
+    answer: `Yes, we offer free consultations to help you explore how our solutions can best serve your business. Simply contact us via our website or email to get started.`,
   },
 ];
 
@@ -327,28 +301,28 @@ export const coreValues = [
     icon: integrity,
     title: "Integrity",
     description:
-      "Transparency and honesty guide our interstellar relationships.",
+      "We believe in building long-term relationships based on trust, honesty, and transparency. We always put your needs first and deliver on our promises.",
   },
   {
-    id: 1,
+    id: 2,
     icon: quality,
-    title: "Quality",
+    title: "Excellence",
     description:
-      "We pursue excellence in every line of code, every design pixel, every cosmic dimension.",
+      "We are committed to delivering the highest quality work in everything we do—from initial planning to the final product, we strive for excellence at every step.",
   },
   {
-    id: 1,
+    id: 3,
     icon: success,
-    title: "Customer Success",
+    title: "Customer Focus",
     description:
-      " Your triumph is ours—measured by tangible impact and universal reach.",
+      "Our clients are at the center of everything we do. We take the time to understand your unique challenges and deliver solutions that work for you.",
   },
   {
-    id: 1,
+    id: 4,
     icon: Infinite,
-    title: "Infinite Learning",
+    title: "Innovation",
     description:
-      "We explore beyond known boundaries, continuously expanding our quantum knowledge.",
+      "We constantly embrace new technologies and ideas to create forward-thinking solutions. Experimentation and learning fuel our drive to stay ahead.",
   },
 ];
 
@@ -356,17 +330,17 @@ export const visionAndMission = [
   {
     title: "Our Vision",
     description:
-      "To be the most advanced AI-driven ecosystem that bridges the real and digital worlds.",
+      "To empower businesses through innovative technology that drives growth, efficiency, and digital transformation—shaping a smarter, more connected future.",
   },
   {
     title: "Our Mission",
     description:
-      "To empower businesses, innovators, and cosmic explorers with quantum-level AI solutions that redefine how we live, work, and connect—on Earth and beyond.",
+      "To deliver cutting-edge, customized solutions by leveraging emerging technologies like AI, blockchain, IoT, and more—helping clients navigate and lead in a constantly evolving digital landscape.",
   },
   {
     title: "Our Journey",
     description:
-      "Born from the cosmic alignment of tech visionaries, aicompany has rapidly evolved into a global technology powerhouse. Our portfolio spans startups to Fortune 500 firms, from local communities to off-world research stations.",
+      "What began as a small team of innovators has grown into a trusted technology partner for clients across industries. Our evolution is driven by a passion for progress, a commitment to excellence, and a vision to shape the future through tech.",
   },
 ];
 
