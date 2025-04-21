@@ -39,6 +39,8 @@ import MavenImg from "../assets/web-development-portfolio/maven.png";
 import MenissaCateringsImg from "../assets/web-development-portfolio/menissa caterings.png";
 import MethodistImg from "../assets/web-development-portfolio/methodist.png";
 import ThinkRealityImg from "../assets/web-development-portfolio/think reality.png";
+import AkashMegaMart from "../assets/web-development-portfolio/Akash Mega Mart.png";
+import MidwamImmersive from "../assets/web-development-portfolio/Midwam – Immersive Experience Design Company.png";
 
 // Import all images at the top (App Development)
 import DubaiTravelGuideImg from "../assets/app-development-portfolio/dubai travel guide.png";
@@ -484,52 +486,28 @@ export const webPortfolio = [
     link: "https://5ghighspeedinternet.co",
   },
   {
-    id: 2,
-    img: BayutImg,
-    title: "Bayut",
-    link: "https://www.bayut.com",
-  },
-  {
     id: 3,
     img: ColdCreekcapImg,
     title: "Cold Creekcap",
     link: "https://www.coldcreekcap.com",
   },
   {
-    id: 4,
-    img: EmergencyMusicImg,
-    title: "Emergency Music",
-    link: "https://www.figma.com/proto/GwlIMQuIuFevhOEp8moALy/emergence-music-distribuBon?page-id=6298%3A7215&type=design&node-id=6298-7776&viewport=407%2C314%2C0.11&t=QCtz7M4USn6gI1CG-1&scaling=min-zoom",
-  },
-  {
-    id: 5,
-    img: FlatiornImg,
-    title: "Flatiorn",
-    link: "",
-  },
-  {
-    id: 6,
-    img: MavenImg,
-    title: "Maven",
-    link: "",
-  },
-  {
-    id: 7,
-    img: MenissaCateringsImg,
-    title: "Menissa Caterings",
-    link: "https://messinascatering.com",
-  },
-  {
-    id: 8,
-    img: MethodistImg,
-    title: "Methodist",
-    link: "",
-  },
-  {
     id: 9,
     img: ThinkRealityImg,
     title: "Think Reality",
     link: "https://thinkrealty.ae",
+  },
+  {
+    id: 90,
+    img: AkashMegaMart,
+    title: "Akash Mega Mart",
+    link: "https://akashmegamart.com/",
+  },
+  {
+    id: 91,
+    img: MidwamImmersive,
+    title: "Midwam – Immersive Experience Design Company",
+    link: "https://www.midwam.com/en/about",
   },
 ];
 
