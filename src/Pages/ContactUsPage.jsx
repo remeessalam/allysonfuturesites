@@ -15,6 +15,7 @@ const ContactUsPage = () => {
     reset,
   } = useForm();
   const navigate = useNavigate();
+
   const onSubmit = async (values) => {
     if (spinner) return;
     setSpinner(true);
@@ -27,7 +28,7 @@ const ContactUsPage = () => {
 
     var payload = {
       to: companyDetails.email,
-      name: companyDetails?.name || "GodversAi",
+      name: companyDetails?.name || "Onfuturesites LLP",
       subject: values.subject,
       body: emailBody,
     };

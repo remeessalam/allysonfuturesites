@@ -63,7 +63,7 @@ import { TbDeviceMobileCode } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
 
 export const companyDetails = {
-  name: "Onfuturesites LLP LLP",
+  name: "Onfuturesites LLP",
   email: "aicompany@gmail.com",
   phone: "+91-6238763290",
   address: "company address",
