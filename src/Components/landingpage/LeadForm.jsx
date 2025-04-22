@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
@@ -6,22 +6,38 @@ import { companyDetails } from "../../util/constant";
 
 const LeadForm = ({ heading }) => {
   const [spinner, setSpinner] = useState(false);
+  const [captcha, setCaptcha] = useState({ num1: 0, num2: 0 });
 
   const {
     register,
     handleSubmit,
     formState: { errors },
     reset,
+    // watch,
   } = useForm();
   const navigate = useNavigate();
 
+  // Generate two random numbers for captcha
+  useEffect(() => {
+    setCaptcha({
+      num1: Math.floor(Math.random() * 10),
+      num2: Math.floor(Math.random() * 10),
+    });
+  }, []);
+
   const onSubmit = async (values) => {
+    const expectedAnswer = captcha.num1 + captcha.num2;
+    if (parseInt(values.captchaAnswer) !== expectedAnswer) {
+      toast.error("Captcha answer is incorrect.");
+      return;
+    }
+
     if (spinner) return;
     setSpinner(true);
 
     var emailBody = "Name: " + values.fullName + "\n\n";
     emailBody += "Email: " + values.email + "\n\n";
-    emailBody += "Phone: " + values.phoneNumber + "\n\n";
+    emailBody += "Phone: " + values.phone + "\n\n";
     emailBody += "Subject: " + values.subject + "\n\n";
     emailBody += "Message:\n" + values.message;
 
@@ -55,7 +71,13 @@ const LeadForm = ({ heading }) => {
       .catch((error) => {
         toast.error(error.message);
       })
-      .finally(() => setSpinner(false));
+      .finally(() => {
+        setSpinner(false);
+        setCaptcha({
+          num1: Math.floor(Math.random() * 10),
+          num2: Math.floor(Math.random() * 10),
+        });
+      });
   };
 
   return (
@@ -65,7 +87,10 @@ const LeadForm = ({ heading }) => {
           {heading || `Schedule a Consultation`}
         </h2>
 
-        <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          className="space-y-6 text-white"
+        >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="space-y-2">
               <label
@@ -167,6 +192,25 @@ const LeadForm = ({ heading }) => {
             />
             {errors.message && (
               <p className="text-red-500 text-sm">{errors.message.message}</p>
+            )}
+          </div>
+
+          <div className="space-y-2">
+            <label className="text-sm font-medium text-gray-300">
+              What is {captcha.num1} + {captcha.num2}?
+            </label>
+            <input
+              type="number"
+              {...register("captchaAnswer", {
+                required: "Captcha is required",
+              })}
+              placeholder="Enter answer"
+              className="p-3 rounded-xl bg-slate-800 border border-slate-600 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+            {errors.captchaAnswer && (
+              <p className="text-red-500 text-sm">
+                {errors.captchaAnswer.message}
+              </p>
             )}
           </div>
 

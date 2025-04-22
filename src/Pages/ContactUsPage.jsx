@@ -1,23 +1,43 @@
 import { useForm } from "react-hook-form";
 import MapComponent from "../Components/MapComponent";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { companyDetails } from "../util/constant";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 
 const ContactUsPage = () => {
   const [spinner, setSpinner] = useState(false);
+  const [num1, setNum1] = useState(0);
+  const [num2, setNum2] = useState(0);
 
   const {
     register,
     handleSubmit,
     formState: { errors },
     reset,
+    setError,
+    // clearErrors,
   } = useForm();
   const navigate = useNavigate();
 
+  useEffect(() => {
+    // Generate two random numbers on component mount
+    setNum1(Math.floor(Math.random() * 10) + 1);
+    setNum2(Math.floor(Math.random() * 10) + 1);
+  }, []);
+
   const onSubmit = async (values) => {
     if (spinner) return;
+
+    // Validate captcha
+    if (parseInt(values.captchaAnswer) !== num1 + num2) {
+      setError("captchaAnswer", {
+        type: "manual",
+        message: "Incorrect answer. Please try again.",
+      });
+      return;
+    }
+
     setSpinner(true);
 
     var emailBody = "Name: " + values.fullName + "\n\n";
@@ -56,8 +76,13 @@ const ContactUsPage = () => {
       .catch((error) => {
         toast.error(error.message);
       })
-      .finally(() => setSpinner(false));
+      .finally(() => {
+        setSpinner(false);
+        setNum1(Math.floor(Math.random() * 10) + 1);
+        setNum2(Math.floor(Math.random() * 10) + 1);
+      });
   };
+
   return (
     <div className="min-h-screen dark:bg-darkblack text-white flex flex-col items-center justify-center pt-[7rem] px-4">
       <div className="w-full max-w-6xl">
@@ -69,17 +94,17 @@ const ContactUsPage = () => {
             <div className="space-y-4 desc" data-aos="fade-right">
               <p>Phone: {companyDetails.phone}</p>
               <p>Email: {companyDetails.email}</p>
-              {/* <p>Office Address: {companyDetails.address}</p>
-              <p>Website: www.Onfuturesites.com</p> */}
             </div>
           </div>
 
-          {/* <MapComponent /> */}
           <div className="w-full max-w-2xl mx-auto paddingbottom">
             <h2 className="main-title mb-8 text-center" data-aos="fade-up">
               Schedule a Consultation
             </h2>
-            <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+            <form
+              onSubmit={handleSubmit(onSubmit)}
+              className="space-y-4 text-white"
+            >
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input
                   data-aos="fade-right"
@@ -153,9 +178,25 @@ const ContactUsPage = () => {
                 <p className="text-red-500">{errors.message.message}</p>
               )}
 
+              <div>
+                <label className="block mb-2">
+                  What is {num1} + {num2}?
+                </label>
+                <input
+                  {...register("captchaAnswer", {
+                    required: "Please answer the captcha question",
+                  })}
+                  type="text"
+                  placeholder="Your Answer"
+                  className="p-3 rounded bg-[#1c2130] border border-[#2a2f42] w-full"
+                />
+                {errors.captchaAnswer && (
+                  <p className="text-red-500">{errors.captchaAnswer.message}</p>
+                )}
+              </div>
+
               <button
                 type="submit"
-                // data-aos="fade-up"
                 className={`w-full ${
                   spinner && `opacity-25 cursor-not-allowed`
                 } bg-primary hover:bg-sky-800 text-white py-3 rounded transition-colors`}
