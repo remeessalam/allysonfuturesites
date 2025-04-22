@@ -3,9 +3,9 @@ import { useInView } from "react-intersection-observer";
 
 const Ourvalues = () => {
   const totalYrs = 3;
-  const totalOnTimeCompletionPercentage = 100;
+  const totalOnTimeCompletionPercentage = 140;
   const totalExperts = 10;
-  const totalClients = 50;
+  const totalClients = 100;
 
   const [yrs, setYrs] = useState(0);
   const [onTimeCompletion, setOnTimeCompletion] = useState(0);
@@ -29,13 +29,13 @@ const Ourvalues = () => {
 
       const clientsInterval = setInterval(() => {
         setClients((prev) => Math.min(prev + 1, totalClients));
-      }, 50);
+      }, 20);
 
       const completionInterval = setInterval(() => {
         setOnTimeCompletion((prev) =>
           Math.min(prev + 1, totalOnTimeCompletionPercentage)
         );
-      }, 20);
+      }, 10);
 
       return () => {
         clearInterval(yrsInterval);
@@ -79,9 +79,9 @@ const Ourvalues = () => {
           <div className="w-full flex flex-col items-center justify-center">
             <div className="flex flex-col gap-3 relative w-fit">
               <h1 className="main-title !text-white">{onTimeCompletion}</h1>
-              <span className="absolute top-1 -right-3 text-lg">%</span>
+              <span className="absolute top-1 -right-3 text-lg">+</span>
             </div>
-            <p className="desc mt-3 !text-white">On Time Completion</p>
+            <p className="desc mt-3 !text-white">Projects delivered</p>
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ const ServicesGrid = ({ isHomepage }) => {
     navigate(`/services/${link}`);
   };
   const allServices = isHomepage
-    ? [{ ...services[2] }, { ...services[4] }]
+    ? [{ ...services[2] }, { ...services[5] }]
     : services;
   return (
     <section>

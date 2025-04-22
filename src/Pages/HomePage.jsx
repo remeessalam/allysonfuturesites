@@ -25,12 +25,12 @@ const HomePage = () => {
               Welcome to Onfuturesites
             </h1>
             <p className="desc mt-4" data-aos="fade-left">
-              At Onfuturesites, we are passionate about transforming the future
-              with innovative technology solutions that elevate businesses
-              across a diverse range of industries. From building full-stack
-              websites and mobile applications to developing cutting-edge AI,
-              blockchain, and IoT systems, we help businesses stay ahead in an
-              increasingly digital world.
+              “At Onfuturesites, we drive innovation with cutting edge AI and
+              blockchain solutions, empowering business through intelligent
+              systems and decentralised platforms. Alongside our expertise in AI
+              and blockchain, we also offer services in mobile and web
+              development, AR/VR development, Game development and more. Let’s
+              share the future together.
             </p>
           </div>
         </div>

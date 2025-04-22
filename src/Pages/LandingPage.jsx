@@ -25,17 +25,19 @@ const LandingPage = ({ page }) => {
           <div className="wrapper grid md:grid-cols-2 gap-10 paddingtop paddingbottom">
             <img src={homeaboutimg} alt="homeaboutimg" />
             <div>
-              <h1 className="main-title leading-tight">Welcome to aicompany</h1>
+              <h1 className="main-title leading-tight">
+                Welcome to Onfuturesites
+              </h1>
               <p className="desc mt-4">
-                In a reality where technology evolves at light speed, aicompany
-                stands at the intersection of cosmic insight and cutting-edge
-                innovation. By merging quantum-level thinking with AI-driven
-                solutions, we transform visionary ideas into immersive digital
-                experiences that transcend borders, dimensions, and industries.
-                Whether you need a next-generation mobile app, an interstellar
-                AR/VR environment, or an AI calling system that revolutionizes
-                global communication, Onfuturesites LLP is here to guide you on
-                this journey across galaxies.
+                In a reality where technology evolves at light speed,
+                Onfuturesites stands at the intersection of cosmic insight and
+                cutting-edge innovation. By merging quantum-level thinking with
+                AI-driven solutions, we transform visionary ideas into immersive
+                digital experiences that transcend borders, dimensions, and
+                industries. Whether you need a next-generation mobile app, an
+                interstellar AR/VR environment, or an AI calling system that
+                revolutionizes global communication, Onfuturesites is here to
+                guide you on this journey across galaxies.
               </p>
             </div>
           </div>
@@ -54,7 +56,7 @@ const LandingPage = ({ page }) => {
             <OurStory />
             <UnlockEfficiency />
             <Faq />
-            <LeadForm />
+            <LeadForm heading={"Let’s Grow your Business"} />
           </section>
         </div>
       </div>

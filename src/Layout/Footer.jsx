@@ -27,7 +27,7 @@ const Footer = () => {
                 />
               </div>
               <p className="text-white text-sm max-w-xs">
-                Unleash the Next Wave of Business Evolution with aicompany
+                Unleash the Next Wave of Business Evolution with Onfuturesites
               </p>
             </div>
 
@@ -104,7 +104,7 @@ const Footer = () => {
 
           <div className="mt-12 text-center">
             <p className="text-white text-sm">
-              ©2025 aicompany. All rights reserved.
+              ©2025 Onfuturesites. All rights reserved.
             </p>
           </div>
         </div>

@@ -63,8 +63,8 @@ import { TbDeviceMobileCode } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
 
 export const companyDetails = {
-  name: "Onfuturesites LLP",
-  email: "aicompany@gmail.com",
+  name: "Onfuturesites",
+  email: "example@gmail.com",
   phone: "+91-6238763290",
   address: "company address",
   socialLinks: [
@@ -171,35 +171,35 @@ export const whyChooseUs = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Onfuturesites LLP for our application development needs has been a transformative experience. Their team's technical expertise and dedication resulted in a user-friendly and robust application that has significantly enhanced our business operations.",
+      "Collaborating with Onfuturesites for our application development needs has been a transformative experience. Their team's technical expertise and dedication resulted in a user-friendly and robust application that has significantly enhanced our business operations.",
     author: "John Doe, CEO of Tech Innovations Ltd.",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "The full-stack web development services provided by Onfuturesites LLP have been instrumental in transforming our online presence. Their seamless integration of front-end and back-end technologies has enhanced user engagement and streamlined our processes.",
+      "The full-stack web development services provided by Onfuturesites have been instrumental in transforming our online presence. Their seamless integration of front-end and back-end technologies has enhanced user engagement and streamlined our processes.",
     author: "Jane Smith, Founder of Creative Solutions Inc.",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "Implementing AI solutions developed by Onfuturesites LLP has revolutionized our data analysis capabilities. Their tailored AI models have provided actionable insights, driving strategic decisions and fostering growth.",
+      "Implementing AI solutions developed by Onfuturesites has revolutionized our data analysis capabilities. Their tailored AI models have provided actionable insights, driving strategic decisions and fostering growth.",
     author: "Michael Johnson, CTO of Data Insights Corp.",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "The AI chatbot developed by Onfuturesites LLP has significantly improved our customer service operations. It handles inquiries efficiently, providing instant responses and enhancing user satisfaction.",
+      "The AI chatbot developed by Onfuturesites has significantly improved our customer service operations. It handles inquiries efficiently, providing instant responses and enhancing user satisfaction.",
     author: "Emily Davis, Customer Support Manager at Retail World",
     rating: 5,
     gridClass: "col-span-1",
   },
   {
     quote:
-      "Leveraging Onfuturesites LLP's AI calling services has optimized our outreach campaigns. The automated system ensures personalized interactions, leading to increased engagement and conversion rates.",
+      "Leveraging Onfuturesites's AI calling services has optimized our outreach campaigns. The automated system ensures personalized interactions, leading to increased engagement and conversion rates.",
     author: "Robert Brown, Marketing Director of EngageNow",
     rating: 5,
     gridClass: "col-span-1",
@@ -239,15 +239,15 @@ export const highlights = [
 
 export const faqs = [
   {
-    question: "What is Onfuturesites LLP?",
-    answer: `Onfuturesites LLP is a full-service technology company delivering innovative digital solutions including web and mobile app development, AI systems, blockchain platforms, AR/VR experiences, and IoT solutions. We help businesses grow and thrive in a digital-first world.`,
+    question: "What is Onfuturesites?",
+    answer: `Onfuturesites is a full-service technology company delivering innovative digital solutions including web and mobile app development, AI systems, blockchain platforms, AR/VR experiences, and IoT solutions. We help businesses grow and thrive in a digital-first world.`,
   },
   {
-    question: "What services does Onfuturesites LLP offer?",
+    question: "What services does Onfuturesites offer?",
     answer: `Our services include full-stack web development, custom mobile app development, AI and machine learning solutions, blockchain development, AR/VR experiences, game development, and IoT systems integration.`,
   },
   {
-    question: "Who can benefit from Onfuturesites LLP services?",
+    question: "Who can benefit from Onfuturesites services?",
     answer: `Our solutions are designed for businesses of all sizes—from startups to enterprises—across industries like healthcare, finance, retail, entertainment, and logistics. If you're looking to innovate and scale digitally, we can help.`,
   },
   {
@@ -255,11 +255,11 @@ export const faqs = [
     answer: `We follow a collaborative, end-to-end approach. From idea validation and planning to development, deployment, and support—we work closely with you at every step to ensure alignment with your goals.`,
   },
   {
-    question: "What makes Onfuturesites LLP different?",
+    question: "What makes Onfuturesites different?",
     answer: `We offer tailored solutions, cutting-edge innovation, and a highly experienced team. Our focus on collaboration, quality, and future-readiness sets us apart in delivering meaningful, scalable, and secure technology solutions.`,
   },
   {
-    question: "Is Onfuturesites LLP experienced in emerging technologies?",
+    question: "Is Onfuturesites experienced in emerging technologies?",
     answer: `Yes. We specialize in modern and emerging tech including AI, machine learning, blockchain, AR/VR, and IoT. We continuously explore new tools and methodologies to stay ahead of tech trends.`,
   },
   {
@@ -267,7 +267,7 @@ export const faqs = [
     answer: `Absolutely. We offer ongoing support, maintenance, and optimization services to ensure your product continues to perform at the highest standards post-launch.`,
   },
   {
-    question: "Can Onfuturesites LLP build custom solutions?",
+    question: "Can Onfuturesites build custom solutions?",
     answer: `Yes. All our services are customized to match your business needs, industry requirements, and user expectations. We don't believe in one-size-fits-all—each project is uniquely crafted.`,
   },
   {
@@ -281,10 +281,6 @@ export const faqs = [
   {
     question: "Where can I learn more about your work?",
     answer: `Visit our website to explore our portfolio, client testimonials, and service breakdowns. You can also follow us on social media to stay updated on our latest projects and innovations.`,
-  },
-  {
-    question: "Do you offer consultations?",
-    answer: `Yes, we offer free consultations to help you explore how our solutions can best serve your business. Simply contact us via our website or email to get started.`,
   },
 ];
 

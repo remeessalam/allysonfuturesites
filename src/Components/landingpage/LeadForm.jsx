@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import { companyDetails } from "../../util/constant";
 
-const LeadForm = () => {
+const LeadForm = ({ heading }) => {
   const [spinner, setSpinner] = useState(false);
 
   const {
@@ -62,7 +62,7 @@ const LeadForm = () => {
     <div id="contact" className="w-full max-w-2xl mx-auto px-4    mb-[4rem] ">
       <div className="dark:bg-transparent bg-darkblack sm:p-7 rounded-xl">
         <h2 className="text-3xl font-bold mb-8 text-center text-white">
-          Schedule a Consultation
+          {heading || `Schedule a Consultation`}
         </h2>
 
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
@@ -201,6 +201,8 @@ const LeadForm = () => {
                 </svg>
                 Sending...
               </div>
+            ) : heading ? (
+              "Send Message"
             ) : (
               "Schedule Consultation"
             )}

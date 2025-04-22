@@ -37,8 +37,8 @@ const AboutUsPage = () => {
                   About Us
                 </h1>
                 <p data-aos="fade-right" className="desc mt-10">
-                  Welcome to aicompany, where cosmic innovation converges with
-                  quantum-level intelligence. In a reality where technology
+                  Welcome to Onfuturesites, where cosmic innovation converges
+                  with quantum-level intelligence. In a reality where technology
                   evolves at light speed, we stand at the intersection of cosmic
                   insight and cutting-edge innovation. By merging quantum-level
                   thinking with AI-driven solutions, we transform visionary
