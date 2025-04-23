@@ -56,14 +56,14 @@ const Footer = () => {
             <div className="col-span-1">
               <h3 className="text-white font-medium mb-4">Information</h3>
               <ul className="space-y-2">
-                <li>
+                {/* <li>
                   <Link
                     to="/blog"
                     className="text-white hover:text-gray-300 text-sm"
                   >
                     Blog
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
                     to="/contact-us"
