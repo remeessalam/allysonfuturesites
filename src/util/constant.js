@@ -82,7 +82,8 @@ export const companyDetails = {
     //   icon: FaYoutube,
     // },
   ],
-  whatsapp: "",
+  whatsapp:
+    "https://api.whatsapp.com/send/?phone=916238763290&text&type=phone_number&app_absent=0",
 };
 
 export const services = [
