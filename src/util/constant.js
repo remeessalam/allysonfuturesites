@@ -69,14 +69,14 @@ export const companyDetails = {
   address: "company address",
   socialLinks: [
     {
-      href: "",
+      href: "https://www.linkedin.com/company/onfuturesites/?viewAsMember=true",
       icon: FaLinkedin,
     },
     {
-      href: "",
+      href: "https://www.instagram.com/onfuturesites/",
       icon: FaInstagram,
     },
-    { href: "", icon: FaXTwitter },
+    { href: "https://x.com/Onfuturesites", icon: FaXTwitter },
     // {
     //   href: "",
     //   icon: FaYoutube,
