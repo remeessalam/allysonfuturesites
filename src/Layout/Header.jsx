@@ -21,9 +21,17 @@ const Header = () => {
   };
 
   const isActive = (path) => location.pathname === path;
-
+  const routes = [
+    { link: "/", name: "Home" },
+    { link: "/about-us", name: "About Us" },
+    {
+      link: "/services",
+      name: "Services",
+    },
+    { link: "Portfolio", name: "Portfolio" },
+  ];
   return (
-    <nav className="fixed w-full top-0 !z-50 bg-primary dark:bg-darkblack shadow-md">
+    <nav className="fixed w-full top-0 !z-50 bg-primary dark:bg-darkblack shadow-md max-w-screen overflow-x-hidden">
       <div className="wrapper">
         <div className="flex items-center justify-between py-5">
           <div className="flex-shrink-0">
@@ -37,21 +45,17 @@ const Header = () => {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            {["/", "/about-us", "/services", "/portfolio"].map(
-              (path, index) => (
-                <Link
-                  key={index}
-                  to={path}
-                  className={`text-white hover:text-blue-300 dark:hover:text-primary ${
-                    isActive(path) ? "text-blue-300 dark:text-primary" : ""
-                  }`}
-                >
-                  {path === "/"
-                    ? "Home"
-                    : path.replace("/", "").replace("-", " ")}
-                </Link>
-              )
-            )}
+            {routes.map((path) => (
+              <Link
+                key={path.name}
+                to={path.link}
+                className={`text-white hover:text-blue-300 dark:hover:text-primary ${
+                  isActive(path.link) ? "text-blue-300 dark:text-primary" : ""
+                }`}
+              >
+                {path.name}
+              </Link>
+            ))}
 
             <button
               onClick={navigateTo}
@@ -88,26 +92,25 @@ const Header = () => {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden">
+        <div className="md:hidden max-w-screen">
           <div className="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-gray-900">
-            {["/", "/about-us", "/services", "/portfolio"].map(
-              (path, index) => (
-                <Link
-                  key={index}
-                  to={path}
-                  onClick={toggleMenu}
-                  className={`block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 ${
-                    isActive(path) ? "bg-gray-100 dark:bg-gray-800" : ""
-                  }`}
-                >
-                  {path === "/"
-                    ? "Home"
-                    : path.replace("/", "").replace("-", " ")}
-                </Link>
-              )
-            )}
+            {routes.map((path) => (
+              <Link
+                key={path.name}
+                to={path.link}
+                onClick={toggleMenu}
+                className={`block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 ${
+                  isActive(path.link) ? "bg-gray-100 dark:bg-gray-800" : ""
+                }`}
+              >
+                {path.name}
+              </Link>
+            ))}
             <button
-              onClick={navigateTo}
+              onClick={() => {
+                navigateTo();
+                toggleMenu();
+              }}
               className="w-full text-center bg-primary  text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors"
             >
               Contact Us
