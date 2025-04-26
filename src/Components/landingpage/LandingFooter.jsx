@@ -66,7 +66,7 @@ const LandingFooter = () => {
             </div>
 
             <div className="col-span-1">
-              <h3 className="text-white font-medium mb-4"> Contact US</h3>
+              <h3 className="text-white font-medium mb-4">Information</h3>
               <ul className="space-y-2">
                 {/* <li>
                   <Link
@@ -86,7 +86,7 @@ const LandingFooter = () => {
                     duration={1000}
                     className="text-white hover:text-gray-300 text-sm"
                   >
-                    Contact US
+                    Contact Us
                   </Scrolllink>
                 </li>
               </ul>
