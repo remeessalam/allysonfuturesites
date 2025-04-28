@@ -29,15 +29,12 @@ const LandingPage = ({ page }) => {
                 Welcome to Onfuturesites
               </h1>
               <p className="desc mt-4">
-                In a reality where technology evolves at light speed,
-                Onfuturesites stands at the intersection of cosmic insight and
-                cutting-edge innovation. By merging quantum-level thinking with
-                AI-driven solutions, we transform visionary ideas into immersive
-                digital experiences that transcend borders, dimensions, and
-                industries. Whether you need a next-generation mobile app, an
-                interstellar AR/VR environment, or an AI calling system that
-                revolutionizes global communication, Onfuturesites is here to
-                guide you on this journey across galaxies.
+                At Onfuturesites, we drive innovation with cutting edge AI and
+                blockchain solutions, empowering business through intelligent
+                systems and decentralised platforms. Alongside our expertise in
+                AI and blockchain, we also offer services in mobile and web
+                development, AR/VR development, Game development and more. Let’s
+                shape the future together.
               </p>
             </div>
           </div>

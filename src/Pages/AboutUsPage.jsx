@@ -7,17 +7,17 @@ import OurStory from "../Components/OurStory";
 import UnlockEfficiency from "../Components/UnlockEfficiency";
 import Faq from "../Components/Faq";
 import BlogBody from "../Components/blog/blogBody";
-import { blogPosts } from "../util/blog";
+// import { blogPosts } from "../util/blog";
 const AboutUsPage = () => {
   const { theme } = useTheme();
   const isDarkMode = theme === "dark";
 
-  function getRandomPosts(posts, count) {
-    const shuffled = [...posts].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, count);
-  }
+  // function getRandomPosts(posts, count) {
+  //   const shuffled = [...posts].sort(() => 0.5 - Math.random());
+  //   return shuffled.slice(0, count);
+  // }
 
-  const randomPosts = getRandomPosts(blogPosts, 3);
+  // const randomPosts = getRandomPosts(blogPosts, 3);
   return (
     <div className=" bg-white dark:bg-darkblack">
       <section className="relative pt-[7rem]  overflow-hidden">
@@ -37,13 +37,12 @@ const AboutUsPage = () => {
                   About Us
                 </h1>
                 <p data-aos="fade-right" className="desc mt-10">
-                  Welcome to Onfuturesites, where cosmic innovation converges
-                  with quantum-level intelligence. In a reality where technology
-                  evolves at light speed, we stand at the intersection of cosmic
-                  insight and cutting-edge innovation. By merging quantum-level
-                  thinking with AI-driven solutions, we transform visionary
-                  ideas into immersive digital experiences that transcend
-                  borders, dimensions, and industries.
+                  At Onfuturesites, we drive innovation with cutting edge AI and
+                  blockchain solutions, empowering business through intelligent
+                  systems and decentralised platforms. Alongside our expertise
+                  in AI and blockchain, we also offer services in mobile and web
+                  development, AR/VR development, Game development and more.
+                  Let’s shape the future together.
                 </p>
               </div>
               <img data-aos="fade-left" src={aboutusimg} alt="aboutus-img" />
@@ -62,7 +61,7 @@ const AboutUsPage = () => {
           <VisionMission />
           <OurStory />
           <UnlockEfficiency />
-          <div className="flex justify-center items-center flex-col paddingtop paddingbottom">
+          {/* <div className="flex justify-center items-center flex-col paddingtop paddingbottom">
             <div
               data-aos="fade-up"
               className="bg-white rounded-full py-2 px-6 shadow-md text-lg font-medium"
@@ -74,7 +73,7 @@ const AboutUsPage = () => {
                 <BlogBody key={index} {...post} passkey={true} />
               ))}
             </div>
-          </div>
+          </div> */}
           <Faq />
         </section>
       </div>

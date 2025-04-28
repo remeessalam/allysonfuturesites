@@ -112,7 +112,7 @@ const LandingHeader = () => {
 
       {isMenuOpen && (
         <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-gray-900">
+          <div className="px-2 pt-2 pb-3  bg-white dark:bg-gray-900">
             <Link
               to="/"
               onClick={toggleMenu}
@@ -142,7 +142,7 @@ const LandingHeader = () => {
               offset={-140}
               duration={1000}
               activeClass="active-link text-blue-300 dark:text-primary"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
+              className="block mb-3 px-3 py-2 rounded-md text-base font-medium text-gray-900 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               Services
             </Scrolllink>
@@ -160,7 +160,7 @@ const LandingHeader = () => {
               smooth={true}
               offset={-140}
               duration={1000}
-              className="w-full  text-center bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors"
+              className="w-full   text-center bg-blue-500 text-white px-6 py-2 rounded-md hover:bg-blue-600 transition-colors"
             >
               Contact Us
             </Scrolllink>

@@ -55,6 +55,7 @@ import {
   FaAppStoreIos,
   FaInstagram,
   FaLinkedin,
+  FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
 import { IoLogoAndroid } from "react-icons/io";
@@ -77,6 +78,10 @@ export const companyDetails = {
       icon: FaInstagram,
     },
     { href: "https://x.com/Onfuturesites", icon: FaXTwitter },
+    {
+      href: "https://api.whatsapp.com/send/?phone=916238763290&text&type=phone_number&app_absent=0",
+      icon: FaWhatsapp,
+    },
     // {
     //   href: "",
     //   icon: FaYoutube,

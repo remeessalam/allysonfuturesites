@@ -13,7 +13,7 @@ const AppLayout = () => {
     offset: -10,
   });
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Header />
       <WhatsAppIcon />
       <ScrollToTop />

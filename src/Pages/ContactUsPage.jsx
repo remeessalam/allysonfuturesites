@@ -99,7 +99,7 @@ const ContactUsPage = () => {
 
           <div className="w-full max-w-2xl mx-auto paddingbottom">
             <h2 className="main-title mb-8 text-center" data-aos="fade-up">
-              Schedule a Consultation
+              Let’s grow your business
             </h2>
             <form
               onSubmit={handleSubmit(onSubmit)}

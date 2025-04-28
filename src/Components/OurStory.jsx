@@ -8,20 +8,22 @@ const OurStory = () => {
             data-aos="fade-right"
             className="text-[32px] text-primary font-bold"
           >
-            Step into the Godverse
+            One of the fastest growing companies
           </h3>
           <p className="desc mt-4" data-aos="fade-right">
-            At Onfuturesites, we aren’t just another tech firm—we are architects
-            of the future, cosmic visionaries, and AI strategists committed to
-            expanding human potential across all frontiers. Join us to discover
-            how leading-edge technology—powered by quantum insights—can
-            transform your business, your world, and the universe itself.
+            We specialize in AI-driven services enhanced by the power of
+            Blockhain technologies, offering tailored solutions that meet the
+            unique challenges of our clients. By taking the time to truly
+            understand their goals, we seamlessly integrate cutting-edge tools
+            like GPT-4, Stable Diffusion, and blockchain platforms such as EVM
+            and Hyperledger into existing infrastructures — delivering
+            comprehensive, future-ready systems across various industries.
             <br />
             <br />
-            Experience cosmic innovation with Onfuturesites. From AI-powered
-            solutions to AR/VR, mobile apps, and quantum-level data analytics,
-            we help businesses worldwide transcend boundaries. Join us to expand
-            your vision across all continents—and beyond.
+            Our expertise covers a wide range of focus areas including AI model
+            integration, gamification, blockchain protocol development,
+            decentralized autonomous organizations (DAOs), and more—driving
+            innovation at every step.
           </p>
         </div>
         <img data-aos="fade-left" src={visionmissionimg} alt="" />
