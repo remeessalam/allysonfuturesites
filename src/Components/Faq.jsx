@@ -1,15 +1,22 @@
 import React, { useState } from "react";
-import { faqs } from "../util/constant";
+import { app_faqs, faqs, web_faqs } from "../util/constant";
 import { FilePlus, Plus } from "lucide-react";
 import RoundedHeader from "./RoundedHeader";
 import { useNavigate } from "react-router-dom";
 
-const Faq = () => {
+const Faq = ({ page }) => {
   const [isOpen, setIsOpen] = useState("");
   const navigate = useNavigate();
   const navigateTo = (link) => {
     navigate(link);
   };
+  let faqDetails = faqs;
+
+  if (page === "web-development") {
+    faqDetails = web_faqs;
+  } else if (page === "app-development") {
+    faqDetails = app_faqs;
+  }
 
   const renderAnswer = (answer) => {
     const points = answer.split("•").filter((point) => point.trim() !== "");
@@ -48,7 +55,7 @@ const Faq = () => {
             </button>
           </div>
           <div className="col-span-2">
-            {faqs.map((faq, index) => (
+            {faqDetails?.map((faq, index) => (
               <div key={index} className="mb-4" data-aos="fade-left">
                 <button
                   className="w-full flex items-center border border-slate-600 justify-between bg-opacity-10 bg-white text-white p-4 rounded-lg focus:outline-none"

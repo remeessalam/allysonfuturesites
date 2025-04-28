@@ -52,7 +52,7 @@ const LandingPage = ({ page }) => {
             <VisionMission />
             <OurStory />
             <UnlockEfficiency />
-            <Faq />
+            <Faq page={page} />
             <LeadForm heading={"Let’s Grow your Business"} />
           </section>
         </div>

@@ -290,6 +290,61 @@ export const faqs = [
   },
 ];
 
+export const web_faqs = [
+  {
+    question: "Can you help improve the SEO of my existing website?",
+    answer:
+      "Yes, we can perform an SEO audit of your current website and implement strategies to improve its search engine ranking. This includes optimizing on-page elements, improving site speed, and addressing any technical SEO issues.",
+  },
+  {
+    question: "Will my website be mobile-friendly?",
+    answer:
+      "Absolutely! All websites we develop are responsive, meaning they automatically adjust to fit any screen size, whether it’s a desktop, tablet, or smartphone. We prioritize a mobile-first approach in our design process to ensure that your website provides a seamless experience on all devices.",
+  },
+  {
+    question: "How long does web development take?",
+    answer:
+      "The timeline for web development can vary based on the scope and complexity of your project. Typically, a website can take anywhere from a few weeks to a few months to develop. We provide a detailed project timeline after an initial consultation and planning phase.",
+  },
+  {
+    question: "Do you offer ongoing support after the website is launched?",
+    answer:
+      "Yes, we provide ongoing support and maintenance services after the website is launched. Our support includes software updates, bug fixes, and any improvements or enhancements needed to keep your site running smoothly.",
+  },
+  {
+    question: "What is the cost of web development?",
+    answer:
+      "The cost of web development depends on several factors including the complexity of the website, the features required, and the technology stack used. We offer custom quotes based on your specific needs and work with you to ensure that the final solution fits within your budget.",
+  },
+];
+export const app_faqs = [
+  {
+    question: "What is the cost of application development?",
+    answer:
+      "The cost of application development depends on several factors including the complexity of the project, the number of features, and the platforms involved. We provide a custom quote based on your business needs and the scope of the project. Contact us to discuss your idea and get a tailored estimate.",
+  },
+  {
+    question: "How long will it take to develop my application?",
+    answer:
+      "The timeline for app development varies based on the features and complexity of the app. Typically, the process can take anywhere from a few months for simpler apps to 6+ months for more complex, feature-rich applications. We work closely with clients to set clear milestones and ensure that the app is delivered on time.",
+  },
+  {
+    question: "Will my app be available on multiple platforms?",
+    answer:
+      "Yes, we offer cross-platform app development services to ensure that your app reaches the widest audience. We build apps for iOS, Android, and can also create web-based apps that work seamlessly across different devices and operating systems.",
+  },
+  {
+    question: "What technologies do you use for app development?",
+    answer:
+      "We use a variety of technologies including React Native, Flutter, Swift, Kotlin, Java, and more. We tailor our technology stack to best suit your app’s functionality, performance needs, and target platform.",
+  },
+  {
+    question: "Can I update or scale my app in the future?",
+    answer:
+      "Absolutely! Our apps are built with scalability in mind. As your business grows, we ensure that your app can be updated with new features and functionalities. We also offer ongoing maintenance and support to keep your app up-to-date.",
+  },
+];
+
 export const coreValues = [
   {
     id: 1,

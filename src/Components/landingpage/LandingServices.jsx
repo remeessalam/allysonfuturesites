@@ -21,7 +21,7 @@ const LandingServices = ({ page }) => {
 
         <h1 data-aos="fade-up" className="main-title max-w-2xl text-center">
           {page === "web-development" &&
-            "High-Quality AI-Enhanced Web Development to Transform Your Online Identity"}
+            "Building Robust, Scalable, and User-Centric Web Solutions"}
           {page === "app-development" &&
             "Cutting-Edge AI-Powered App Development Services for Intelligent Mobile Solutions"}
         </h1>
