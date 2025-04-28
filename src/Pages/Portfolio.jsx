@@ -30,7 +30,9 @@ const Portfolio = () => {
   return (
     <div className="bg-white dark:bg-darkblack">
       <div className="wrapper pt-[7rem] paddingbottom ">
-        <h2 className="main-title text-center paddingbottom">My Portfolio</h2>
+        <h2 className="main-title text-center paddingbottom">
+          Project Portfolio’s
+        </h2>
 
         <div className="flex sm:flex-row flex-col  gap-5 justify-center mb-8 ">
           {portfolioTypes.map((type) => (

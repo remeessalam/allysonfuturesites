@@ -15,14 +15,13 @@ const Highlights = () => {
           <div className="flex flex-col gap-5">
             <RoundedHeader title={"Highlights"} bg={true} />
             <h1 className="main-title leading-tight" data-aos="fade-right">
-              Revolutionizing AI with Quantum Intelligence
+              Revolutionizing Industries with Artificial Intelligence
             </h1>
             <p className="desc" data-aos="fade-right">
-              From local startups to interplanetary enterprises, Onfuturesites
-              LLP is your ultimate gateway to advanced AI solutions. We merge
-              artificial intelligence, quantum computing, and cosmic
-              consciousness to drive unparalleled business growth and digital
-              evolution.
+              From local startups to high-level enterprises, Onfuturesites is
+              your ultimate gateway to advanced AI solutions. We merge
+              artificial intelligence, quantum computing to drive unparalleled
+              business growth and digital evolution
             </p>
             <button
               data-aos="fade-right"
