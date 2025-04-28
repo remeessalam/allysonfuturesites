@@ -37,7 +37,7 @@ html {
 @media only screen and (max-width: 767px) {
   .videoplayer {
     width: 100vw;
-    height: 45vh !important;
+    height: 44vh !important;
   }
 }
 
