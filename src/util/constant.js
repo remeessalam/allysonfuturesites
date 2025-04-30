@@ -65,7 +65,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export const companyDetails = {
   name: "Onfuturesites",
-  email: "example@gmail.com",
+  email: "info@onfuturesites.com",
   phone: "+91-6238763290",
   address: "company address",
   socialLinks: [
